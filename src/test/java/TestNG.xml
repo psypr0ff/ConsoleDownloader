@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="AutotestsDownloader" parallel="classes" >
+    <test name="Unit-Tests">
+        <classes>
+            <class name="CheckDownloadFileTest" />
+            <class name="ConsoleArgsTest" />
+            <class name="downloaderTest" />
+            <class name="DownloadLinksAndFilesTest" />
+            <class name="newFolderTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="SmokeTestDownloader" parallel="classes" >
+    <test name="Smoke-Tests">
+        <classes>
+            <class name="smokeTest" />
+        </classes>
+    </test>
+</suite>
